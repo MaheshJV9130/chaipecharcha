@@ -35,7 +35,7 @@ const secret =  user[0].razorpaySecret
   );
  if(isPayment){
   await Payments.findOneAndUpdate({oid : body.razorpay_order_id} , {isDone : true} , {new : true})
-  return NextResponse.redirect(`${process.env.NEXT_PUBLIC_URL}/${user[0].username.replace(' ', '_')}?payment=true`)
+  return NextResponse.redirect(`${process.env.NEXTAUTH_URL}/${user[0].username.replace(' ', '_')}?payment=true`)
  }
   return NextResponse.json({ status: "Ok" });
 }
