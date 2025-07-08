@@ -9,7 +9,7 @@ const Contact = () => {
         </h2>
         <p className="text-lg text-gray-700 mb-10">
           Whether you have a question, an idea, or just want to say hi over a
-          virtual cup of chai — we're all ears! ☕
+          virtual cup of chai — we are all ears! ☕
         </p>
 
         <div className="grid md:grid-cols-2 gap-10 text-left">

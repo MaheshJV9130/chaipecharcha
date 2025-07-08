@@ -10,7 +10,7 @@ const LearnAbout = () => {
         enables individuals to fund their projects and ideas, providing a space
         where creativity and innovation can thrive. Our mission is to empower
         talented individuals by facilitating financial support, allowing them to
-        focus on what they do best – creating. Whether you're a developer coding
+        focus on what they do best creating. Whether you are a developer coding
         the next big app, a content creator making engaging videos, or an
         influencer sharing your passion, Get Me A Chai is here to help you
         achieve your goals. We believe in the power of community and the impact

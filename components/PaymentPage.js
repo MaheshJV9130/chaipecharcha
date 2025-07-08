@@ -51,7 +51,7 @@ const PaymentPage = ({ username }) => {
             htmlFor="text"
             className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
           >
-            Enter Payment Receiver's Username
+            Enter Payment Receivers Username
           </label>
           <input
             type="text"
